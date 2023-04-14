@@ -35,7 +35,7 @@ public class PrincipalBusca {
 				break;
 			}
 
-			final String endereco = "http://www.omdbapi.com/?t=" + busca + "&apikey=be085767";
+			final String endereco = "http://www.omdbapi.com/?t=" + busca + "&apikey=***APIKEY***";
 			try {
 				HttpClient client = HttpClient.newHttpClient();
 				HttpRequest request = HttpRequest.newBuilder().uri(URI.create(endereco)).build();
